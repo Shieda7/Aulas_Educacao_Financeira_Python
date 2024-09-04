@@ -1,0 +1,39 @@
+Tema: Introdução a Investimentos
+
+*DEIXAR CLARO NA AULA QUE ISSO NÃO É UMA INDICAÇÃO DE ONDE FAZER SEU INVESTIMENTO.*
+1. Introdução a investimentos:
+- O que é investimento e qual a sua importância?
+- Quais são os tipos de investimentos que existem?
+- Vantagens de investir em ativos financeiros para garantir uma aposentadoria mais confortável e segura.
+- Importância de um Planejamento Financeiro Individual
+- Discussão: Introduzir o conceito de risco versus retorno.
+
+Projeto: Simulador de vários tipos de Investimentos simultâneos
+Utilização das bibliotecas:
+- matplotlib: Gráficos comparativos e de pizza.
+- numpy: Cálculos matemáticos.
+- fpdf: Geração de relatórios em PDF.
+
+Objetivo do Projeto:
+- Simular múltiplos tipos de investimentos e exibir o total investido, ganho e retorno gerado em gráficos e PDF.
+
+Ferramenta externa:
+- Mostrar o site para os alunos:
+https://investnews.com.br/ferramentas/simuladores/simulador-de-investimento/
+
+IDEIA DE PROMPT:
+
+Crie um simulador de investimentos em Python que calcule o saldo final de um investimento considerando juros compostos e inflação. O simulador deve:
+
+1- Pedir ao usuário a taxa de retorno anual, a contribuição mensal e a duração do investimento em anos.
+2- Incluir a inflação no cálculo das contribuições mensais.
+3- Calcular e retornar o saldo final, o total investido e o retorno gerado.
+4- Simular diferentes cenários de taxa de retorno e inflação (cenário base, aumento e redução das taxas).
+5- Gerar gráficos de barras comparativos entre os investimentos, mostrando o total investido, o retorno e o saldo final.
+6- Criar um gráfico de pizza que mostre a proporção entre o total investido, o retorno gerado e o saldo final.
+7- Gerar um relatório em PDF com os resultados e os gráficos.
+
+Utilize as bibliotecas:
+- numpy para cálculos matemáticos,
+- matplotlib para geração dos gráficos,
+- fpdf para criação do relatório PDF.

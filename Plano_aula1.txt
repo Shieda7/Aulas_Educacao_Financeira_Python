@@ -1,0 +1,74 @@
+AULA 1:
+PROJETO PLANO DE APOSENTADORIA
+
+1. Explicar o por que planejar sua aposentadoria é importante: 
+    - Garantir estabilidade financeira na fase da vida em que não se trabalha mais, 
+    evitando depender exclusivamente de benefícios governamentais.
+
+    - Importância de definir uma meta de patrimônio: 
+    Fornece um objetivo claro para economizar e investir, 
+    ajudando a garantir que os recursos serão suficientes 
+    para manter o padrão de vida desejado após a aposentadoria.
+
+2. Sistema de Previdência Social e INSS
+- O que é o INSS?
+    - O INSS (Instituto Nacional do Seguro Social) é a entidade responsável pelo pagamento de benefícios previdenciários no Brasil, como aposentadorias e pensões.
+
+- Como funciona o sistema de contribuições e benefícios.
+
+- Desvantagens do INSS:
+    - Salário Baixo:
+        - A aposentadoria pelo INSS pode ser bastante limitada, muitas vezes não cobrindo as necessidades financeiras completas de um aposentado.
+    
+    - Dificuldade em Aposentar-se:
+        - Requisitos rigorosos para se aposentar, como tempo de contribuição e idade mínima, podem tornar o processo desafiador.
+    
+    - Baixa Taxa de Mortalidade e Aumento da Longevidade:
+        - A expectativa de vida está aumentando, tem menos gente pra contribuir, e muita gente pra receber, 
+        isso não é sustentável então logo esse sistema não vai ser uma boa opção para se aposentar
+
+    - Mudanças e Reformas:
+        - O sistema está sujeito a mudanças políticas e reformas que podem afetar os benefícios futuros.
+
+3. PROJETO EM PYTHON
+
+Instalar as bibliotecas:
+- matplotlip
+- numpy
+- fpdf
+
+Prompt:
+
+"Escreva um código Python que realiza simulações de aposentadoria e gera um relatório com gráficos e PDF. O código deve incluir as seguintes funcionalidades:
+
+1- Calcular o saldo final com base em juros compostos e inflação:
+- A função calcular_saldo_final deve receber idade atual, idade de aposentadoria, contribuição mensal, taxa de retorno anual e taxa de inflação anual.
+- Deve calcular o saldo final considerando contribuições mensais ajustadas pela inflação e retorno do investimento.
+- Deve retornar o saldo final, o total investido e o retorno gerado.
+
+2- Simular cenários com diferentes taxas de retorno e inflação:
+- A função simular_cenarios deve receber idade atual, idade de aposentadoria, contribuição mensal e uma lista de cenários, cada um contendo uma taxa de retorno e uma taxa de inflação.
+- Deve retornar um dicionário com os resultados de cada cenário.
+
+3- Gerar gráficos comparativos:
+- A função gerar_graficos deve criar um gráfico de barras horizontais comparando os saldos finais dos diferentes cenários.
+- O gráfico deve ser salvo como 'comparacao_cenarios.png'.
+
+4- Gerar gráfico de pizza:
+- A função gerar_grafico_pizza deve criar um gráfico de pizza mostrando a proporção entre o total investido e o retorno gerado para um cenário específico.
+- O gráfico deve ser salvo como 'grafico_pizza.png'.
+
+5- Gerar relatório em PDF:
+- A função gerar_relatorio_pdf deve criar um relatório em PDF com:
+    - Um título.
+    - Os resultados de cada cenário com saldo final, total investido e retorno gerado.
+    - Gráficos comparativos e gráfico de pizza adicionados ao PDF.
+- O PDF deve ser salvo como 'simulacao_aposentadoria.pdf'.
+
+6- Entradas do usuário:
+- O código deve solicitar ao usuário a idade atual, a idade de aposentadoria, a contribuição mensal e a taxa de retorno anual.
+- Deve definir cenários alternativos para a simulação.
+
+7 - Exibir resultados e gerar relatórios:
+- O código deve exibir no console o total investido, o total de retorno gerado e o saldo final para o cenário principal.
+- Deve gerar os gráficos e o relatório em PDF.
